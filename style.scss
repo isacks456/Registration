@@ -1,0 +1,88 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: rgb(50, 49, 49);
+}
+
+form {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+
+	.block1 {
+		border: 1px solid #fff;
+		padding: 48px;
+		border-radius: 48px;
+	}
+
+	input {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding: 14px;
+		width: 448px;
+		border-radius: 8px;
+		border: 2px solid #ffffff;
+		font-size: .9rem;
+	}
+
+	.mainWords {
+		color: #ffffff;
+		text-align: center;
+	}
+
+
+	label {
+		color:#fff;
+		font-size: 1.2rem;
+	}
+
+	.msg {
+		color: #c63232;
+		font-size: .7rem;
+		font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	}
+	.mainput {
+		background: transparent;
+		color: #ffffffff;
+	}
+
+	.btn {
+		cursor: pointer;
+		font-size: 1.1rem;
+		font-weight: 400;
+		&:hover {
+			opacity: .9;
+		}
+
+	}
+
+	.hidePassword {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		.ShowPassword {
+			position: absolute;
+			right: 40%;
+			text-decoration: none;
+			color: #ffffffff;
+			cursor: pointer;
+		}
+	}
+
+}
+
+.container {
+	max-width: 748px;
+	margin: 0 auto;
+}
